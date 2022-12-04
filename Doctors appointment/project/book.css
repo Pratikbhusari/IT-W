@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("book.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.heading {
+    display: flex;
+}
+
+.form {
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    width: 34%;
+    margin-left: 8vw;
+    background-color: #f7f2dc;
+}
+
+.input {
+    margin-bottom: 5vh;
+    margin-left: 1vw;
+    padding-top: 1vh;
+    border-radius: 4px;
+}
+
+.form1 {
+    margin-top: 5vh;
+    display: flow-root;
+    margin-bottom: 5vh;
+    margin-left: 2vw;
+}
+
+.btn {
+    width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #2ecc71;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+    border-radius: 22px;
+}
+.btn:hover{
+    background-color: green;
+}
+.h1{
+    color: #e80077;
+    margin-left: 16vw;
+}

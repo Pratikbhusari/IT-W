@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Book</title>
+    <link rel="stylesheet" href="book.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="h1">
+        Book Appointment
+    </h1>
+
+    <div class="form">
+
+        <form class="form1" action="insert.php" method="POST">
+            Enter your Name:<input type="text" name="username" placeholder=" Name" class="input" required> <br>
+            Enter your Age:<input type="text" name="age" placeholder=" Age " class="input" required> <br>
+            Enter Mobile Number:<input type="text" name="mobileno" placeholder=" Mobile Number" class="input" required>
+            <br>
+
+            Enter Email id:<input type="text" placeholder=" Email id " name="email" class="input" required> <br>
+            Enter Appointment Date:<input type="date" placeholder="  appointment date" class="input" required> <br>
+
+            <input type="submit" class="btn" id="submit" value="submit" name="submit">
+            </input>
+
+
+
+
+        </form>
+    </div>
+    </div>
+    <script>
+
+        let contact = document.getElementById('submit');
+        submit.addEventListener('click', function run() {
+            window.open("http://127.0.0.1:5501/project/booking.html")
+        })
+    </script>
+
+</body>
+
+</html>
